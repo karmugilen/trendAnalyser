@@ -38,7 +38,7 @@ def companesloop_with_retry(company_name, max_retries=3):
                 print(f"Maximum retries reached for {company_name}. Skipping.")
 
 def stockDownloadUS():
-    names = [
+    names = ["qualcomm",
             "Amd",
             "Apple",
             "Microsoft",
